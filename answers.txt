@@ -1,0 +1,13 @@
+When hidden nodes increase
+
+With very few hidden units (e.g., 1–2), the model is too simple → it underfits and accuracy is low.
+
+With more hidden units (5–20), the model learns complex decision boundaries → accuracy improves significantly.
+
+With too many hidden units (50+), the model may overfit → accuracy on training set is high but generalization can drop.
+
+Pattern of accuracy
+
+Accuracy increases at first as hidden nodes increase, since the network can capture more complex patterns.
+
+After a certain point, accuracy plateaus or may fluctuate because of overfitting or saturation.
